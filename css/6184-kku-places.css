@@ -36,10 +36,16 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px; 
     margin-right: 20px;
+    padding: 5px;
+    padding-left: 5px ;
 }
 p {
     margin-left: 20px;
     margin-left: 20px;
+}
+.l {
+    padding: 5px;
+    padding-left: 5px ;
 }
 figcaption {
     text-align: center;
