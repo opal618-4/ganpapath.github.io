@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(71, 127, 177);
+    margin: 0;
+    font-family: "Poppins";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(35, 55, 97);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: azure;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    margin-left: 20px;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+h1, p {
+    text-align: center;
+    color: antiquewhite;
+}
+.pic {
+    
+}

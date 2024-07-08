@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+        <title>my-6184-display-props</title>
+        <style>
+            h1 {
+                text-align: center;
+                font-family: "Poppins";
+            }
+            h3 {
+                text-align: left;
+                margin-left: 8px;
+                font-family: "Poppins";
+            }
+            #block {
+                border-style: solid;
+                border-width: 2px;
+                padding : 10px,10px ,10px,10px;
+                margin: 200px,200px,200px,200px;
+                font-family: "Poppins";
+            }
+            #block p {
+                display: block;
+                background-color: #A6907C;
+                color: #FFFFFF;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 10px;
+                text-align: left; 
+            }
+            #des {
+                border-style: solid;
+                border-width: 2px;
+                padding : 10px,10px ,10px,10px;
+                margin: 200px,200px,200px,200px;
+                font-family: "Poppins";
+            }
+            #des span {
+                display: inline;
+                background-color: #595843;
+                color: #FFFFFF;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 1px;
+                padding: 10px;
+                text-align: left; 
+            }
+            .all {
+                color:#FFFFFF;
+                padding: 10px;
+                font-family: "Poppins";
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            .blocking {
+                display: flex;
+                border-style: solid;
+                border-width: 2px;
+                padding : 10px,20px ,10px,10px;
+            }
+            .s1 {
+                flex-shrink: 1;
+                background-color: #590202;
+                width : 250px;
+            }
+            .s2 {
+                flex-shrink: 2;
+                background-color: #595843;
+                width : 250px;
+            }
+            .g1 {
+                flex-grow: 1;
+                background-color: #590202;
+            }
+            .g2 {
+                flex-grow: 2;
+                background-color: #595843;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exercise about Property display</h1>
+        <h3>Your most frequently used apps</h3>
+        <div id= block>
+            <p>Youtube</p> 
+            <p>Instagram</p>
+            <p>VIU</p>
+        </div>
+        <h3>Place you want to visit</h3>
+        <div id = des>
+            <p>
+                <span>Phuket</span>
+                <span>Lephe Island</span>
+                <span>Lampang</span>
+            </p>
+        </div>
+        <h3>Country you want to visit</h3>
+        <div class= "blocking">
+            <div class = "all g1">Japan</div>
+            <div class = "all g1">USA</div>
+            <div class = "all g2">Egypt</div>
+        </div>
+        <h3>Activities you want to do</h3>
+        <div class = "blocking">
+                <div class ="all s1">Slept in my room</div>
+                <div class = "all s1">Cooking</div>
+                <div class = "all s2">Singing Karaoke</div>
+        </div>
+    </body>
+</html>

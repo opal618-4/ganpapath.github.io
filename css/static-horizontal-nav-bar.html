@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+        <title>my-6184-static-horizontal-nav-bar</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: grey;
+            }
+            li {
+                float: left;
+            }
+            li a{
+                display: block;
+                color: azure;
+                text-align: center;
+                padding: 14px 16px;
+                font-family: "Poppins";
+                text-decoration: none;
+            }
+            li a.active{
+                background-color: #005C53;
+            }
+            li a:hover{
+                background-color: #042940;
+            }
+            h3,p {
+                font-family: "Poppins";
+                margin-left:10px;
+            }
+        </style>
+    </header>
+    <body>
+        <ul>
+            <li><a class = "active" href = "#Home">Home</a></li>
+            <li><a href = "#About">About</a></li>
+            <li><a href = "#Services">Services</a></li>
+            <li><a href = "#Portfolio">Portfolio</a></li>
+            <li><a href = "#Contact">Contact</a></li>
+        </ul>
+        <h3>Static Horizontal Navigation Bar Example</h3>
+        <p>This is a static navigation bar where only the Home item is highlighted.
+             Resize the browser window to see how the navigator bar changes to vertical on smaller screens</p>
+    </body> 
+</html>
