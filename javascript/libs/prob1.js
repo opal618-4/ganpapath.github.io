@@ -14,11 +14,8 @@ function showPrimes(n) {
     if (n == 0 || n == 1) {
         alert("For n = "+ n +" is not prime number");
     }
-    else if (n == 2) {
-        alert("For n = "+ n +" prime number is "+ 2);
-    }
     else {
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i <= n; i++) {
         if (!isPrime(i)) {
             continue;
         }
